@@ -1,4 +1,11 @@
+const { Fragment } = require('react');
+
 function HomePage() {
-  return <div>HomePage</div>;
+  return (
+    <Fragment>
+      <Hero />
+      <FeaturedPosts />
+    </Fragment>
+  );
 }
 export default HomePage;
