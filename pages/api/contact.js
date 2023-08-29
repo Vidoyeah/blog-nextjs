@@ -20,7 +20,7 @@ function handler(req, res) {
       name,
       message,
     };
-    console.log(message);
+    console.log(newMessage);
 
     res
       .status(201)
