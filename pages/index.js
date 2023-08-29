@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import { Fragment } from 'react';
 
 import FeaturedPosts from '@/components/home-page/featured-posts';
@@ -8,6 +10,13 @@ function HomePage(props) {
   console.log(props.posts);
   return (
     <Fragment>
+      <Head>
+        <title>Vidoje's Blog</title>
+        <meta
+          name="description"
+          content="I post about NextJS"
+        />
+      </Head>
       <Hero />
       <FeaturedPosts posts={props.posts} />
     </Fragment>
