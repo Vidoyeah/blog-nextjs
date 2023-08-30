@@ -14,7 +14,7 @@ need to know as a web developer.
 For example, you should understand code like this:
 
 ```js
-const basics = 'Okay, that should not be too difficult actually!!';
+const basics = 'Okay, that should not be too difficult actually.';
 
 function printBasics() {
   console.log(basics):
@@ -23,4 +23,5 @@ function printBasics() {
 printBasics();
 ```
 
-Learn more about it [here](https://academind.com).
+Learn more about it
+[here](https://www.amazon.com/Ikhishi-You-Don%60T-Know-Paperback/dp/9352136268).
