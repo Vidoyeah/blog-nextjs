@@ -68,7 +68,7 @@ function ContactForm() {
     notification = {
       status: 'error',
       title: 'Error!',
-      message: 'Message sent successfully!',
+      message: 'Message sending failed!',
     };
   }
 
